@@ -1,0 +1,199 @@
+body{
+    margin-left: 0px;
+    margin-top: -800px;
+}
+
+
+hr{
+
+  width: 100%; 
+  margin: auto; 
+  margin-top: 5%;
+  margin-bottom: 5%;
+  transform: rotate(170deg); 
+  border: #68FFAF solid 20px;
+}
+
+h3{
+  font-weight: 10;
+}
+
+
+
+  .skills-content{
+    margin-left: 400px;
+    text-align: justify;
+    
+  }
+  
+  div p-card.p-component{
+    border-radius: 30px;
+    
+
+  }
+  
+  p-header{
+    font-size: 50px;
+    font-weight:800;
+    text-decoration: underline solid #BADA55;
+    margin-bottom: 100px;
+    text-underline-position: right;
+    animation: moveheaders ease-in 3s;   
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: -20px;
+  }
+
+    .box1{
+      border: #BADA55 solid;
+      padding: 40px 60px 40px 60px;
+      box-shadow: 10px 5px 5px rgb(173, 166, 166);
+      animation: moveboxes 5s ease-in;
+      animation-fill-mode: forwards;
+    }
+
+
+
+    .box2{
+      border: #BADA55 solid;
+      padding: 40px 60px 40px 60px;
+      box-shadow: 10px 5px 5px rgb(173, 166, 166);
+      animation: moveboxes 5s ease-in;
+      animation-fill-mode: forwards;
+    }
+
+    .box3{
+      border: #BADA55 solid;
+      padding: 40px 60px 40px 60px; 
+      box-shadow: 10px 5px 5px rgb(173, 166, 166);
+      animation: moveboxes 5s ease-in;
+      animation-fill-mode: forwards;
+
+    }
+    .box4{
+      border: #BADA55 solid;
+      padding: 40px 60px 40px 60px;
+      box-shadow: 10px 5px 5px rgb(173, 166, 166);
+      animation: moveboxes 5s ease-in;
+      animation-fill-mode: forwards;
+    }
+
+
+
+    .box5{
+      border: #BADA55 solid;
+      padding: 40px 60px 40px 60px;
+      box-shadow: 10px 5px 5px rgb(173, 166, 166);
+      animation: moveboxes 5s ease-in;
+      animation-fill-mode: forwards;
+    }
+
+    .box6{
+      border: #BADA55 solid;
+      padding: 40px 60px 40px 60px; 
+      box-shadow: 10px 5px 5px rgb(173, 166, 166);
+      animation: moveboxes 5s ease-in;
+      animation-fill-mode: forwards;
+
+    }
+    .box7{
+      border: #BADA55 solid;
+      padding: 40px 60px 40px 60px; 
+      box-shadow: 10px 5px 5px rgb(173, 166, 166);
+      animation: moveboxes 5s ease-in;
+      animation-fill-mode: forwards;
+
+    }
+     /* for hover boxes */
+      .box1:hover{ 
+         background: url("https://i.ibb.co/mDbV8f9/0e99853b0962481e2dfacdcf17bc99b9.png" ) center no-repeat; 
+         background-color: rgba(0,0,0,0.5); 
+         display: block;
+        z-index: 2;
+        opacity: 2;
+         width: fit-content; 
+         height: fit-content;
+         transition: ease-in 1s;
+      }  
+
+      .box2:hover{
+        background: url("https://i.ibb.co/yYM8rP6/HTML5-2.png") center no-repeat; 
+        background-color: rgba(0,0,0,0.5); 
+        display: block;
+       z-index: 2;
+       opacity: 2;
+        width: fit-content; 
+        height: fit-content;
+        transition: ease-in 1s;
+      }
+
+      .box3:hover{
+        background: url("https://i.ibb.co/mtGZp95/css.png") center no-repeat; 
+        background-color: rgba(0,0,0,0.5); 
+        display: block;
+       z-index: 2;
+       opacity: 2;
+        width: fit-content; 
+        height: fit-content;
+        transition: ease-in 1s;
+      }
+      .box4:hover{
+        background: url("https://i.ibb.co/DLnPwG8/javascript-logo.png") center no-repeat; 
+        background-color: rgba(0,0,0,0.5); 
+        display: block;
+       z-index: 2;
+       opacity: 2;
+        width: fit-content; 
+        height: fit-content;
+        transition: ease-in 1s;
+      }
+      .box5:hover{
+        background: url("https://i.ibb.co/KKgPmD7/R8b8ece6a20441242711a041acd01ba85.png") center no-repeat; 
+        background-color: rgba(0,0,0,0.5); 
+        display: block;
+       z-index: 2;
+       opacity: 2;
+        width: fit-content; 
+        height: fit-content;
+        transition: ease-in 1s;
+      }
+      .box6:hover{
+        background: url("https://i.ibb.co/MMwfvHk/Angular-JS-In-Hindi.png") center no-repeat; 
+        background-color: rgba(0,0,0,0.5); 
+        display: block;
+       z-index: 2;
+       opacity: 2;
+        width: fit-content; 
+        height: fit-content;
+        transition: ease-in 1s;
+      }
+      .box7:hover{
+        background: url("https://i.ibb.co/FxBCV0T/primeNG.png") center no-repeat; 
+        background-color: rgba(0,0,0,0.5); 
+        display: block;
+       z-index: 2;
+       opacity: 2;
+        width: fit-content; 
+        height: fit-content;
+        transition: ease-in 1s;
+      }
+
+
+      
+
+    @keyframes moveboxes{
+      from {margin-top: 100px;}
+      to{margin-bottom:100px;}
+    }
+
