@@ -122,6 +122,27 @@ li{
 
 }
 
+.content {
+    padding: 2em 3em 0;
+    margin-left: 25%;
+}
+
+.header {
+    margin: 80% 2em 0;
+    text-align: right;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+
 
 
 
@@ -131,26 +152,57 @@ li{
 
 
 
-@media (min-width: 20em) {
-    .content {
-        padding: 2em 3em 0;
-        margin-left: 25%;
-    }
 
-    .header {
-        margin: 80% 2em 0;
-        text-align: right;
-    }
+@media screen and (max-width:400px){
 
-    .sidebar {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-    }
-
-    .footer {
-        text-align: center;
-    }
+            hr{
+                background: url(https://i.ibb.co/8rdYFkx/Latestpic.jpg) center;
+                padding: 82px;
+                width: 87%;
+                height: 270px;
+                margin-top: 2%;
+                margin-left: 2%;
+                border: #68FFAF solid 8px;
+                animation: navigationmove 5s ease-in;
+                animation-fill-mode: forwards;
+            }
 
 
+            .nav-title{
+                font-size: 30px;
+                font-family: fantasy;
+                /* padding: 0px 16px 8px 12px; */
+                padding: 0px 0px -4px 0px;
+                letter-spacing: 4px;
+                margin-top: -77px;
+
+            }
+
+            span{
+                color: #c5e268;
+                font-size: 86px;
+            }
+
+
+
+            .fix-list{
+                margin-top: -41px;
+                display: contents;
+
+            }
+
+            li{
+                font-size: 22px;
+                padding: 14px;
+                
+            }
+
+            .nav-list{
+                margin-top: -30px;
+            }
+
+            .sidebar{
+                width: 187px;
+            }
+        
 }

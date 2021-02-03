@@ -71,6 +71,63 @@ hr{
         padding: 10px;
     }
 
+    @media screen and (max-width:400px){
+        
+        hr{
+        position: relative;
+        top: 689px;
+        right: 117px;
+        width: 230px;
+        }
+
+        .contact-content{
+            margin-left: 0px;
+            text-align: justify;
+            position: relative;
+            top: 693px;
+            right: 109px;        
+        }
+
+        p-header{
+            position: relative;
+            top: 20px;
+            float: ce;
+            font-size: 35px;
+            left: 30px;
+            text-align: center;
+
+        }
+
+        textarea{
+            margin-top: 19px;
+            width: 200px;
+            height: 162px;
+            font-weight: 10;
+            font-size: 15px;
+            word-spacing: 2px;
+            padding: 10px;
+        }
+
+        input{
+            margin-top: 47px;
+            width: 204px;
+            height: 20px;
+            font-weight: 10;
+            font-size: 20px;
+            word-spacing: 2px;
+            padding: 20px;
+        }
+
+
+        p-button{
+            margin-left: 50px;
+            position: relative;
+            top: 10px;
+        }
+
+
+    }
+
   
 
 

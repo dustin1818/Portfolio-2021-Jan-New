@@ -67,7 +67,7 @@ h3{
 
     .box2{
       border: #BADA55 solid;
-      padding: 40px 60px 40px 60px;
+      padding: 39px 8px;
       box-shadow: 10px 5px 5px rgb(173, 166, 166);
       animation: moveboxes 5s ease-in;
       animation-fill-mode: forwards;
@@ -197,3 +197,130 @@ h3{
       to{margin-bottom:100px;}
     }
 
+
+
+    @media screen and (max-width:400px){
+
+      hr{
+        position: relative;
+        top: 233px;
+      }
+
+
+      .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 17px;
+        font-weight: 800;
+        font-size: 37px;
+        position: relative;
+        right: -58px;
+      }
+
+
+
+      .box1{
+        border: #BADA55 solid;
+        padding: 36px 18px;
+        box-shadow: 10px 5px 5px rgb(173 166 166);
+        animation: moveboxes 5s ease-in;
+        animation-fill-mode: forwards;
+        width: 182px;
+        text-align: center;
+        height: 4em;
+      }
+
+      .box2{
+        border: #BADA55 solid;
+        /* padding: 10px 83px; */
+        padding: 36px 0px;
+        box-shadow: 10px 5px 5px rgb(173 166 166);
+        animation: moveboxes 5s ease-in;
+        animation-fill-mode: forwards;
+        width: 182px;
+        height: 4em;
+      }
+
+      .box3{
+        border: #BADA55 solid;
+        padding: 38px 0px;
+        box-shadow: 10px 5px 5px rgb(173 166 166);
+        animation: moveboxes 5s ease-in;
+        animation-fill-mode: forwards;
+        width: 182px;
+        height: 4em;      }
+
+      .box4{
+        border: #BADA55 solid;
+        padding: 41px 0px;
+        box-shadow: 10px 5px 5px rgb(173 166 166);
+        animation: moveboxes 5s ease-in;
+        animation-fill-mode: forwards;
+        width: 182px;
+        height: 4em;
+         text-align: center;
+      }
+
+      .box5{
+        border: #BADA55 solid;
+        padding: 37px 0px;
+        box-shadow: 10px 5px 5px rgb(173 166 166);
+        animation: moveboxes 5s ease-in;
+        animation-fill-mode: forwards;
+        width: 182px;
+        height: 4em;
+      }
+
+      .box6{
+        border: #BADA55 solid;
+        padding: 36px 0px;
+        box-shadow: 10px 5px 5px rgb(173 166 166);
+        animation: moveboxes 5s ease-in;
+        animation-fill-mode: forwards;
+        width: 182px;
+        height: 4em;
+      }
+
+      .box7{
+        border: #BADA55 solid;
+        padding: 36px 0px;
+        box-shadow: 10px 5px 5px rgb(173 166 166);
+        animation: moveboxes 5s ease-in;
+        animation-fill-mode: forwards;
+        width: 182px;
+        height: 4em;
+      }
+
+      .skills-content{
+        position: relative;
+        top: 206px;
+        margin-left: 53px;
+        left: 95px;
+        text-align: center;
+        
+      }
+
+
+      p-header{
+        font-size: 36px;
+        position: relative;
+        right: 30px;
+        top: 18px;
+    
+      }
+
+      h3{
+        font-weight: 100;
+        font-size: 17px;
+        text-align: center;
+        padding: 28px;
+        margin: 14px;
+        margin-right: 75px;
+      }
+
+      
+
+     
+    }
