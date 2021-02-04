@@ -206,3 +206,58 @@ li{
             }
         
 }
+
+
+@media screen and (max-width:320px){
+
+    span{
+        font-size: 74px;
+    }
+
+    .p-menubar{
+        background: #56e0b4;
+
+    }
+
+    .sidebar{
+        width: 153px;
+    }
+
+
+    hr{
+        background: url(https://i.ibb.co/8rdYFkx/Latestpic.jpg) 50%;
+        padding: 66px;
+        width: 87%;
+        height: 275;
+        margin-top: 2%;
+        margin-left: 2%;
+        border: 8px solid #68ffaf;
+        animation: navigationmove 5s ease-in;
+        animation-fill-mode: forwards;
+    
+    }
+
+
+    span{
+        font-size: 63px;
+    }
+
+
+    .nav-title{
+        font-size: 25px;
+        margin-top: -76px;
+    }
+
+
+    .nav-list{
+        margin-top: -42px;
+    }
+
+    a{
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+
+
+}

@@ -221,6 +221,51 @@ hr{
           margin-left: 246px;
         }
 
+      }
+
+
+      @media screen and (max-width: 320px){
+
+        hr{
+          top: 904px;
+          right: 193px;
+        }
+
+
+        p-header{
+          position: relative;
+          top: 930px;
+          font-size: 28px;
+          right: 346px;
+      }
+        
+      .container{
+        position: relative;
+        top: 578px;
+      }
+
+      p{
+        text-align: center;
+        font-size: 12.9px;
+        padding: 19px;
+      }
+
+
+      .box1{
+        height: 500px;
+        border: solid #bada55;
+        padding: 0;
+        box-shadow: 10px 5px 5px rgb(173 166 166);
+        animation: moveboxes 5s ease-in;
+        animation-fill-mode: forwards;
+        width: 115px;
+        position: relative;
+        right: 365px;
+        margin-left: 12px;
+      }
+
+      
+
 
       }
   

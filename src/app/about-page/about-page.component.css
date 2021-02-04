@@ -186,7 +186,57 @@ img{
 
 }
 
-
-
-
 }
+
+
+@media screen and (max-width:320px){
+  .about-content1{
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  p-header{
+    font-size: 27px;
+    position: relative;
+    left: -113px;
+    top: 41px;
+  }
+
+
+  p{
+    font-size: 14px;
+    font-weight: 350;
+    color: #000;
+    padding: 10px;
+    margin: 18px;
+    margin-left: 133px;
+    margin-right: 111px;
+}
+
+
+  .container{
+    position: relative;
+    right: 107px;
+}
+  img{
+    width: 149px;
+    height: 116px;
+  }
+
+/* .about-content1 h3  - try this{
+    position: relative;
+    right: 100px;
+  }
+ */
+
+   h3{
+    position: relative;
+    right: 100px;
+  }
+
+
+
+  }
+
+
+
