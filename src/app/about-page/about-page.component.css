@@ -108,6 +108,25 @@ img{
 
 @media screen and (max-width:400px){
 
+  .p-card {
+    background: #fff;
+    color: #495057;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    padding: 0px;
+    margin: 40px;
+}
+
+.p-card .p-card-content {
+  padding: 1rem 0;
+  position: relative;
+  left: 73px;
+}
+
+
+
     
 .p-menubarsub{
   margin-left: 130px;
