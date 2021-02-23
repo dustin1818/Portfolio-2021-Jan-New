@@ -8,62 +8,46 @@
 
 } 
 
+.about-content{
+     left: 0;
+     width: 72%;
+     float: right;
+}
+
+h1{
+  text-align: left;
+  font-size: 3em;
+  font-weight: 800;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 8px;
+  padding-top: 10px;
+  padding-left: 44px;
+  text-decoration: underline #bada55;
+
+}
+
+
+
+
+
 p{
-  font-size: 20px;
-   font-weight: 350;
-
-
-  color: #000000;
-   padding: 10px;
-   letter-spacing: 0;
-
-}
-
-
-body, html{
-  width:100%;
-  height:100%;
-  margin:0;
-  display: table;
-  text-align: center;
-}
-
-.about-content1{
-  margin-left: 340px;
+  margin: 20px;
   text-align: justify;
-  
+  padding: 20px;
 }
-
-
-
-div p-card.p-component{
-  border-radius: 30px;
-}
-
-
-p-header{
-  font-size: 50px;
-  font-weight:800;
-  text-decoration: underline solid #BADA55;
-  text-underline-position: right;
-  animation: moveheader ease-in 3s  ;   
-  /* animation-direction: alternate; */
-  animation-fill-mode: forwards;
-
-
-}
-
 
 
 img{
-  width: 200px;
-  height: 150px;
-  margin: 5px;
-  margin-bottom: 230px;
-  border:#1fffa8 solid 10px;
+  width: 172px;
+  height: 151px;
+  margin: 15px;
+  border: #1fffa8 solid 10px;
+  padding: 5px;
+
+
 }
 
-@keyframes moveheader{
+/* @keyframes moveheader{
   from {margin-left: 0px;}
   to{margin-left: 250px;}
 }
@@ -83,26 +67,34 @@ img{
    text-decoration: underline solid #BADA55;
    animation: moveheader ease-in 3s  ;   
   /* animation-direction: alternate; */
-  animation-fill-mode: forwards;
-
-}
 
 .container{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin:10px;
-  animation: moveboxex 5s ease-in;
-  animation-fill-mode: forwards;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    animation: moveboxex 5s ease-in;
+    animation-fill-mode: forwards;
+    padding: 50px;
+    padding-top: 18px;
+}
+
+
+.about-third-section p{
+  margin: 20px;
+  text-align: justify;
+  padding: 12px 67px;
+  margin-top: -73px;
+  font-size: 19px;
 }
 
 
 
 
- @keyframes moveboxex{
+ /* @keyframes moveboxex{
   from {margin-top: 230px;}
   to{margin-bottom:30px;}
-}
+} */
 
 
 
