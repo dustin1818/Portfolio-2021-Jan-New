@@ -180,7 +180,7 @@ li{
 
             span{
                 color: #c5e268;
-                font-size: 86px;
+                font-size: 54px;
             }
 
 
@@ -205,6 +205,26 @@ li{
                 width: 187px;
             }
         
+}
+
+@media screen and (max-width:354px){
+
+    .nav-title{
+        font-size: 30px;
+        font-family: fantasy;
+        /* padding: 0px 16px 8px 12px; */
+        padding: 0px 0px -4px 0px;
+        letter-spacing: 4px;
+        margin-top: -77px;
+
+    }
+
+    span{
+        color: #c5e268;
+        font-size: 50px;
+    }
+
+
 }
 
 
