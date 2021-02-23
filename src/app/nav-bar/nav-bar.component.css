@@ -212,16 +212,21 @@ li{
     .nav-title{
         font-size: 30px;
         font-family: fantasy;
-        /* padding: 0px 16px 8px 12px; */
-        padding: 0px 0px -4px 0px;
+        padding: 0px;
+        display: block;
+        margin: auto;
         letter-spacing: 4px;
         margin-top: -77px;
-
     }
 
     span{
         color: #c5e268;
-        font-size: 50px;
+        font-size: 70px;
+    }
+
+    li{
+        font-size: 28px;
+        
     }
 
 
