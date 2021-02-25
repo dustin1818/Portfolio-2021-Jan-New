@@ -1,10 +1,21 @@
-<p-menubar class="p-menubar  p-menubarsub " [model]="items">
-  <div>
-    <input class="p-menubarsubs" type="text" pInputText placeholder="Search">
+
+<div class="link-bar">
+
+  <div class="structure">
+
+    <ul class="container-nav">
+
+      <li > <a routerLink = "about-page">About Me</a></li>
+      <li><a routerLink = "skills-section">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a routerLink= "contact-section">Contact</a></li>
+
+
+    </ul>
 
   </div>
-</p-menubar>
 
+</div>
 
 <body>
 
@@ -83,3 +94,5 @@
 
 
 </body>
+
+<router-outlet></router-outlet>
