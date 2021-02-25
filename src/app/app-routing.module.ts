@@ -12,7 +12,7 @@ const routes: Routes = [
   component: NavBarComponent
   },
   {
-    path:'',
+    path:'about-page',
     component:AboutPageComponent
   },
   {
