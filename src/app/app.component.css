@@ -2,3 +2,288 @@
 body{
   overflow-x: hidden;
 }
+
+
+h3 {
+  font-weight: 100;
+}
+
+#layout {
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  top: auto;
+  margin: 1em auto;
+  
+}
+
+.sidebar {
+  background:rgb(4, 37, 21);
+  /* #03344b - dark blue (recommend) 
+  rgb(50, 255, 187) - second recommended green;
+  /* #2f7a9c; - light blue (oks din) 
+  /* rgb(245, 75, 112) - red 
+  /* rgb(91, 219, 129) - green 
+  /* /* color: rgb(255, 255, 255); */
+  width: 350px;
+  
+  z-index: 1;
+
+  
+} 
+.sidebar {
+  position: fixed;
+
+}
+
+.pic-nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 50px;
+  height: 300px;
+  width: 250px;
+
+}
+
+hr{
+  background: url("https://i.ibb.co/8rdYFkx/Latestpic.jpg") center ;
+  padding: 0px;
+  width: 90%; 
+  height: 300px;
+  margin: auto; 
+  margin-top: 5%;
+  margin-right: 20px;
+  border: #68FFAF solid 8px;
+  animation: navigationmove 5s ease-in;
+  animation-fill-mode: forwards;
+  
+}
+
+/* This is  for sidebar */
+
+.nav-title {
+  text-transform: uppercase;
+  padding: 20px 10px 8px 10px;
+  font-weight: 1000;
+  font-size: 31px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: rgb(237, 240, 241);
+  animation: navigationmove 2s ease-in-out;
+  animation-fill-mode: forwards;
+  margin-top: -35px;
+  
+}
+
+@keyframes navigationmove{
+  from{margin-top: 400px;}
+  to{margin-bottom: 40px;}
+}
+.nav-tagline {
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(237, 240, 241);
+  font-family: Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif';
+  margin: 10px auto 20px;
+}
+
+  
+
+.fix-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  color: rgb(237, 240, 241);
+  margin-top: -30px;
+
+
+}
+
+.fix-list a{
+  color: rgb(237, 240, 241);
+  margin-right: auto;
+  margin-left: 28px;
+}
+
+.fix-list li{
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.fix-list a:hover{
+  background-color: rgb(16, 243, 175);
+  transition: all .5s ease-out;
+  cursor: pointer;
+}
+.content {
+  padding: 2em 3em 0;
+  margin-left: 25%;
+}
+
+.header {
+  margin: 80% 2em 0;
+  text-align: right;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+
+
+
+@media screen and (max-width:400px){
+
+          hr{
+              background: url(https://i.ibb.co/8rdYFkx/Latestpic.jpg) center;
+              padding: 82px;
+              width: 87%;
+              height: 270px;
+              margin-top: 2%;
+              margin-left: 2%;
+              border: #68FFAF solid 8px;
+              animation: navigationmove 5s ease-in;
+              animation-fill-mode: forwards;
+          }
+
+
+          .nav-title{
+              font-size: 30px;
+              font-family: fantasy;
+              /* padding: 0px 16px 8px 12px; */
+              padding: 0px 0px -4px 0px;
+              letter-spacing: 4px;
+              margin-top: -77px;
+
+          }
+
+          span{
+              color: #c5e268;
+              font-size: 54px;
+          }
+
+
+
+          .fix-list{
+              margin-top: -41px;
+              display: contents;
+
+          }
+
+          .fix-list li{
+              font-size: 22px;
+              padding: 14px;
+              
+          }
+
+          .nav-list{
+              margin-top: -30px;
+          }
+
+          .sidebar{
+              width: 187px;
+          }
+      
+}
+
+@media screen and (max-width:354px){
+
+  .nav-title{
+      font-size: 30px;
+      font-family: fantasy;
+      padding: 0px;
+      display: block;
+      margin: auto;
+      letter-spacing: 4px;
+      margin-top: -77px;
+  }
+
+  span{
+      color: #c5e268;
+      font-size: 70px;
+  }
+
+  .fix-list li{
+      font-size: 50px;
+      
+  }
+
+
+}
+
+
+@media screen and (max-width:320px){
+
+  span{
+      font-size: 74px;
+  }
+
+  .p-menubar{
+      background: #56e0b4;
+
+  }
+
+  .sidebar{
+      width: 153px;
+  }
+
+
+  hr{
+      background: url(https://i.ibb.co/8rdYFkx/Latestpic.jpg) 50%;
+      padding: 66px;
+      width: 87%;
+      height: 275;
+      margin-top: 2%;
+      margin-left: 2%;
+      border: 8px solid #68ffaf;
+      animation: navigationmove 5s ease-in;
+      animation-fill-mode: forwards;
+  
+  }
+
+
+  span{
+      font-size: 63px;
+  }
+
+
+  .nav-title{
+      font-size: 25px;
+      margin-top: -76px;
+  }
+
+
+  .nav-list{
+      margin-top: -42px;
+  }
+
+  .fix-list a{
+      margin-left: 5px;
+      margin-right: auto;
+  }
+
+
+
+}
+
