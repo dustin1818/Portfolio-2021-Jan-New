@@ -1,21 +1,7 @@
 
-body{
-    margin-left: 300px;
-    margin-top: 380px;
-}
-
-hr{
-    width: 100%; 
-    margin: auto; 
-    margin-top: 5%;
-    margin-bottom: 5%;
-    transform: rotate(190deg); 
-    border: #68FFAF solid 20px;
-}
-
 .project-content{
-    margin-left: 100px;
-    text-align: justify;
+  margin-left: 24em;    
+  text-align: justify;
     
   }
 
@@ -63,9 +49,12 @@ hr{
     .box1{
       border: #BADA55 solid;
       padding: 40px 60px 40px 60px;
-      box-shadow: 10px 5px 5px rgb(173, 166, 166);
+      box-shadow: 10px 5px 5px rgb(173 166 166);
       animation: moveboxes 5s ease-in;
       animation-fill-mode: forwards;
+      width: 90%;
+      height: 111vh;
+      margin: 20px;
 
     }
 
