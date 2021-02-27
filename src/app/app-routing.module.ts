@@ -7,8 +7,14 @@ import { ProjectSectionComponent } from './project-section/project-section.compo
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 
 const routes: Routes = [
+  
+  { 
+      path: '', pathMatch: 'full', 
+      redirectTo: 'about-page',
+  },
+  
   {
-  path: '',
+  path: 'nav-bar',
   component: NavBarComponent
   },
   {
@@ -31,7 +37,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,
+    {
+      scrollPositionRestoration: 'enabled'
+    })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
