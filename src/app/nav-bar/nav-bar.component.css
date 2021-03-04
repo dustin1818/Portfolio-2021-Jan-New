@@ -40,6 +40,7 @@
     position: relative;
     margin-right: 4em;
     left: 21em;
+    cursor: pointer;
   
   }
   
@@ -47,5 +48,48 @@
     background-color: #fff;
     transition: all .5s ease-out;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width:335px){
+    .link-bar{
+    width: 100%;
+    background-color: #1fffa8;
+    position: relative;
+    bottom: 21px;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    }
+
+    .container-nav{
+      display: flex;
+      flex-direction: row;
+      font-size: 0px;
+      padding:0;
+      width: 100%;
+      position: fixed;
+      left: 0;
+    }
+
+    .structure{
+      height: 16vh;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .container-li{
+      justify-content: space-between;
+      display: flex;
+      list-style-type: none;
+      padding:0;
+       cursor: pointer;
+       
+
+    }
+    
+  
+
+
+
   }
    
